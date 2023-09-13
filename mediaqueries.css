@@ -40,6 +40,10 @@
     .about-containers{
         margin-top: 0;
     }
+    .second_profile_pic{
+        height: 100%;
+        width: auto;
+    }
 }
 
 @media screen and (max-width:600px) {

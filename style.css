@@ -179,8 +179,9 @@ section{
 }
 .second_profile_pic img{
     border: white 1px solid;
-    border-width: 1rem;
     background: white;
+    width: auto;
+    height: 70%;
 }
 
 .section__text{
@@ -221,6 +222,9 @@ section{
 .icon{
     cursor: pointer;
     height: 2rem;
+    background: white;
+    border-radius: 2rem;
+    border: white 1px solid;
 }
 
 /*Buttons*/
