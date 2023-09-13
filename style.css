@@ -171,6 +171,18 @@ section{
     margin: auto 0;
 }
 
+.first_profile_pic img{
+    border: white 1px solid;
+    border-radius: 50%;
+    border-width: 1rem;
+    background: white;
+}
+.second_profile_pic img{
+    border: white 1px solid;
+    border-width: 1rem;
+    background: white;
+}
+
 .section__text{
     align-self:center;
     text-align:center;
@@ -192,11 +204,17 @@ section{
     text-align: center;
     color: white;
 }
+
 #socials-container{
     display: flex;
     justify-content: center;
     margin-top: 1rem;
     gap: 1rem;
+}
+#socials-container img{
+    background: white;
+    border-radius: 2rem;
+    border: white 1px solid;
 }
 
 /*Icon*/
@@ -284,6 +302,15 @@ section{
     text-align: center;
 }
 
+.details-container img{
+    background: white;
+    border-radius: 2rem;
+    border: white 0.1px solid;
+}
+
+.details-container h3{
+    color: white;
+}
 
 .section-container{
     gap: 4rem;
