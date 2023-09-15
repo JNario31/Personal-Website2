@@ -273,7 +273,7 @@ section{
 }
 .about-containers{       
     gap: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     margin-top: 2rem;
 }
 
@@ -326,6 +326,13 @@ section{
     margin: auto 0;
 }
 
+#hello{
+    font-size: x-large;
+    font-weight: bolder;
+    gap: 1.5rem;
+}
+
+
 /*Skills Section*/
 
 #skills{
@@ -346,7 +353,7 @@ section{
 
 .article-container{
     display: flex;
-    text-align: initial;
+    text-align:initial;
     flex-wrap: wrap;
     flex-direction:row;
     gap: 2.5;
